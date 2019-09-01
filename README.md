@@ -10,11 +10,11 @@ For example, if the database required by the application will still be deployed 
 #
 
 
-#Reference
+Reference
 
 https://blogs.vmware.com/vsphere/2019/08/project-pacific-technical-overview.html
 
-#Virtual Machines
+Virtual Machines
 
 The supervisor includes a Virtual Machine operator that allows kubernetes users to manage VMs on the Supervisor. You can write deployment specifications in YAML that mix container and VM workloads in a single deployment that share the same compute, network and storage resources.
 
