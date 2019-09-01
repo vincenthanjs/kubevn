@@ -1,7 +1,10 @@
 # kubevn
 kubevn will be a collections of yaml, as a start for virtual network and security objects. This idea was inspired by Jared when he talks about "platforms platforms" described by Joe Baeda. 
 
-The thought that came across my mind after understading about project pacific, if now kubernetes can be extended to create VM workloads, how about networking and security objects? Why can't we use the same deployment specifications in YAML to mix VM workloads and Virtual Networks(VN) in a single deployment as well?
+The thought that came across my mind after understanding about project pacific, if now kubernetes can be extended to create VM workloads, how about networking and security objects? Why can't we use the same deployment specifications in YAML to mix VM workloads and Virtual Networks(VN) in a single deployment as well?
+
+
+
 
 
 
