@@ -3,14 +3,18 @@ kubevn will be a collections of yaml, as a start for virtual network and securit
 
 The thought that came across my mind after understanding about project pacific, if now kubernetes can be extended to create VM workloads, how about networking and security objects? Why can't we use the same deployment specifications in YAML to mix VM workloads and Virtual Networks(VN) in a single deployment as well?
 
+For example, if the database required by the application will still be deployed as VMs, then it will required networking such as "virtual LANs" aka logical switches in NSX context. In this case, we can extend this concept to have a kind:LogicalSwitch. 
+
+#
+#
+#
 
 
-
-
-
+#Reference
 
 https://blogs.vmware.com/vsphere/2019/08/project-pacific-technical-overview.html
-Virtual Machines
+
+#Virtual Machines
 
 The supervisor includes a Virtual Machine operator that allows kubernetes users to manage VMs on the Supervisor. You can write deployment specifications in YAML that mix container and VM workloads in a single deployment that share the same compute, network and storage resources.
 
